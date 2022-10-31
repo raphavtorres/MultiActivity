@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.154" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/bemVindo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Olá, usuário!"
@@ -30,7 +30,7 @@
         app:layout_constraintVertical_bias="0.266" />
 
     <Button
-        android:id="@+id/openAct1"
+        android:id="@+id/openAct2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#40BF6B"
@@ -47,8 +47,8 @@
         android:layout_marginTop="60dp"
         android:backgroundTint="#40BF6B"
         android:text="abrir terceira activity"
-        app:layout_constraintStart_toStartOf="@+id/openAct1"
-        app:layout_constraintTop_toBottomOf="@+id/openAct1" />
+        app:layout_constraintStart_toStartOf="@+id/openAct2"
+        app:layout_constraintTop_toBottomOf="@+id/openAct2" />
 
     <TextView
         android:id="@+id/textView"
